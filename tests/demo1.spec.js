@@ -16,6 +16,6 @@ test ('Locators' , async ({page}) =>
 // await page.getByRole('link' , {name : 'About us'}).click();
 //  await page.getByTitle ('play video').click();
 
-
+        
 //  await page.getByLabel
 });
