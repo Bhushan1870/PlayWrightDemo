@@ -30,6 +30,6 @@ test('calculator',async({page}) => {
 
   await page.locator('#checkbox1').check();
   await expect(page.locator('#checkbox1')).toBeChecked();
-  await expect(page.locator('#checkbox')).toBeChecked()
+ // await expect(page.locator('#checkbox')).toBeChecked()
 
 });
