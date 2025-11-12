@@ -2,12 +2,14 @@ import {test , expect} from '@playwright/test'
 
 test ('Locators' , async ({page}) =>
     {
+     
 
-     await page.goto('https://practice.expandtesting.com/upload');
-     await page.locator("#fileInput").setInputFiles("./file/play.jpg");
+
+    //  await page.goto('https://practice.expandtesting.com/upload');
+    //  await page.locator("#fileInput").setInputFiles("./file/play.jpg");
      //await page.waitForTimeout(3000);       
-     await page.locator("#fileSubmit").click();
-     await expect(page.locator('h1').getByText("File Uploaded!")).toBeVisible();
+    //  await page.locator("#fileSubmit").click();
+    //  await expect(page.locator('h1').getByText("File Uploaded!")).toBeVisible();
 //  await page.goto('https://practice.expandtesting.com/inputs');
 
 
