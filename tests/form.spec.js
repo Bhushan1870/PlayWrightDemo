@@ -2,7 +2,7 @@ import {test , expect} from '@playwright/test'
 
 test ('googleForm', async({page}) => 
 {
-  await page.goto('https://demo.automationtesting.in/Register.html');
+  await page.goto('https://demo.automationtesting.in/Register.html'); // go to the website
   await expect(page.getByText('Home')).toBeVisible();
   //await page(!close);
  // await page.waitForLoadState('domcontentloaded');
