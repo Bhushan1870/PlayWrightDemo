@@ -28,7 +28,6 @@ test ('googleForm', async({page}) =>
     await page.locator('li',{hasText:'English'}).click();      // dropdown multiple select
 
     await page.locator('#Skills').selectOption('HTML');        // dropdown sinngle select
-
     await page.locator('#yearbox').selectOption('2000');            // dropdown by id
     await page.getByPlaceholder('Month').selectOption('November');  // dropdown by placeholder
     await page.locator('#daybox').selectOption('12');
