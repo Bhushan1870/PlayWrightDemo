@@ -3,7 +3,7 @@ import {test , expect} from '@playwright/test'
 test ('Locators' , async ({page}) =>
     {
      
-
+       
 
     //  await page.goto('https://practice.expandtesting.com/upload');
     //  await page.locator("#fileInput").setInputFiles("./file/play.jpg");
